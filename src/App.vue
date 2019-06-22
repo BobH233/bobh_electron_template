@@ -34,16 +34,16 @@ export default {
       remote.BrowserWindow.getAllWindows()[0].setTitle(ttt);
     },
     closeWindow(){
-      remote.BrowserWindow.getFocusedWindow().close();
+      remote.BrowserWindow.getAllWindows()[0].close();
     },
     minWindow(){
-      remote.BrowserWindow.getFocusedWindow().minimize();
+      remote.BrowserWindow.getAllWindows()[0].minimize();
     },
     maxWindow(){
-      if(remote.BrowserWindow.getFocusedWindow().isMaximized())
-        remote.BrowserWindow.getFocusedWindow().restore();
+      if(remote.BrowserWindow.getAllWindows()[0].isMaximized())
+        remote.BrowserWindow.getAllWindows()[0].restore();
       else
-        remote.BrowserWindow.getFocusedWindow().maximize();
+        remote.BrowserWindow.getAllWindows()[0].maximize();
     }
   },
 }
