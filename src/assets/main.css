@@ -32,7 +32,7 @@
     background-size:20px 20px;
     background-repeat:no-repeat;
     -webkit-app-region: no-drag;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     float: left;
 }
 #closeBtn:hover{
@@ -69,7 +69,7 @@
     background-size:20px 20px;
     background-repeat:no-repeat;
     -webkit-app-region: no-drag;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     float: left;
 }
 #maxSizeBtn:hover{
