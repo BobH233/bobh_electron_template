@@ -10,7 +10,89 @@
  * @import "tailwindcss/preflight";
  */
  @tailwind preflight;
-
+ *{
+     cursor: default;
+    -webkit-user-select:none;
+ }
+ #titleBar{
+    background-color:rgb(222, 222, 222);
+    position:fixed;
+    width:100%;
+    height:40px;
+    -webkit-app-region: drag;
+    -webkit-user-select:none;
+}
+#closeBtn{
+    background-color: rgb(255, 77, 77);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    margin-left: 8px;
+    border-radius:20px;
+    box-shadow: 0 0 2px #000000;
+    -webkit-app-region: no-drag;
+    transition: all 0.1s ease-in-out;
+    float: left;
+}
+#closeBtn:hover{
+    background-color: rgb(255, 136, 136);
+}
+#closeBtn:active{
+    background-color: rgb(146, 77, 77);
+}
+#minSizeBtn{
+    background-color: rgb(252, 180, 36);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    margin-left: 8px;
+    border-radius:20px;
+    box-shadow: 0 0 2px #000000;
+    -webkit-app-region: no-drag;
+    transition: all 0.1s ease-in-out;
+    float: left;
+}
+#minSizeBtn:hover{
+    background-color: rgb(255, 206, 109);
+}
+#minSizeBtn:active{
+    background-color: rgb(145, 117, 61);
+}
+#maxSizeBtn{
+    background-color: rgb(30, 200, 50);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    margin-left: 8px;
+    border-radius:20px;
+    box-shadow: 0 0 2px #000000;
+    -webkit-app-region: no-drag;
+    transition: all 0.1s ease-in-out;
+    float: left;
+}
+#maxSizeBtn:hover{
+    background-color:  rgb(113, 230, 127);
+}
+#maxSizeBtn:active{
+    background-color:  rgb(72, 148, 81);
+}
+#titleText{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    pointer-events: none;
+}
+#rt{
+    margin-top:40px;
+    display: block;
+    position: fixed;
+}
  /**
   * This injects any component classes registered by plugins.
   *
