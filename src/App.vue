@@ -29,7 +29,6 @@ export default {
       return remote.BrowserWindow.getAllWindows()[0].getTitle();
     },
     setTitle: function(ttt){
-      let that = this;
       this.title = ttt;
       remote.BrowserWindow.getAllWindows()[0].setTitle(ttt);
     },
