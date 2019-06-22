@@ -1,29 +1,17 @@
-# bobh_electron_template
+# BobH_electron_Template
 
-## Project setup
-```
-npm install
-```
+## Introduction
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+    This is a universal npm develop template with electron,vue and TailwindCss.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    It's aim is to make develop vue + electron application more easily.
 
-### Run your tests
-```
-npm run test
-```
+    Contact me On QQ:1551608379 or Twitter:BohanRen
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 介绍
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    这是一个通用的electron+vue+tailwindcss开发模板
+
+    旨在于简化 vue+eletron 开发应用的过程
+
+    欢迎QQ联系我1551608379,或者推特:BohanRen
